@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- Launch rviz -->
+  <node pkg="rviz" type="rviz" name="rviz" required="true"
+        args="-d $(find my_gmapping)/rviz/turtlebot3_gmapping.rviz" />
+
+</launch>
